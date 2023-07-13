@@ -1,0 +1,86 @@
+﻿Exporters	Imported value in 2012	Imported value in 2013	Imported value in 2014	Imported value in 2015	Imported value in 2016	Imported value in 2017	Imported value in 2018	Imported value in 2019	Imported value in 2020	Imported value in 2021	
+"World"	1481998	1660950	1727455	3294465	2790965	2379142	2543467	2797149	2249213	3214336	
+"United States of America"	848461	856572	1027545	2389053	2245716	1823360	1686180	1782102	1623902	1810433	
+"United Kingdom"	538192	533923	407841	465766	334489	280733	386714	255697	188733	716476	
+"China"	404	0	4177	2384	78	4667	9891	51971	31811	247885	
+"France"	4310	36741	49563	43485	58218	52997	76476	186812	99368	140132	
+"Germany"	42801	60319	51446	54700	55269	105515	246602	162002	122795	100594	
+"Italy"	24211	40826	60589	43374	26463	18116	18127	27345	30340	52914	
+"Canada"	3255	1088	3031	9495	5625	3123	12225	5256	8986	30574	
+"Netherlands"	195	3685	4540	1328	0	1246	11070	20015	17761	27949	
+"Switzerland"	0	6768	34230	205912	4744	2998	9107	11829	5010	12748	
+"Area Nes"	0	0	0	33761	19083	13966	0	13221	0	11684	
+"Spain"	3374	3745	3038	9429	14306	40567	23328	30621	21086	11050	
+"United Arab Emirates"	64	1051	150	486	106	117	7443	829	23322	11009	
+"Sweden"	0	58808	18304	10606	6801	12511	9457	13730	1206	7284	
+"Philippines"	0	0	0	0	0	0	1098	6959	3888	4636	
+"Austria"	0	0	0	2112	790	62	7049	4915	2974	4417	
+"Denmark"	0	0	0	489	4757	123	748	538	1224	4085	
+"Singapore"	186	0	0	0	0	0	1989	2477	1092	3534	
+"Japan"	0	59	0	0	0	119	1992	5189	1811	2292	
+"Malaysia"	65	622	235	207	903	439	2390	2965	225	2002	
+"Korea, Republic of"	0	2763	0	1094	655	11812	10410	6441	13624	1674	
+"Belgium"	0	177	0	0	40	0	2616	487	0	1578	
+"Ukraine"	0	27	0	0	0	0	120	0	0	1279	
+"Malta"	0	0	0	0	0	0	0	0	0	1231	
+"Hungary"	0	0	267	0	0	27	6	181	419	1076	
+"Ireland"	0	0	106	0	0	616	356	365	655	970	
+"Czech Republic"	0	0	0	0	469	95	459	553	476	628	
+"Mexico"	0	0	0	0	165	0	1562	5685	455	527	
+"Brazil"	758	1182	1587	289	474	565	199	229	299	429	
+"South Africa"	98	222	0	420	6271	0	1027	228	32	423	
+"Hong Kong, China"	0	0	279	0	0	0	35	695	279	416	
+"Thailand"	0	0	0	0	0	0	39	281	128	321	
+"Viet Nam"	0	0	0	0	0	0	49	0	0	314	
+"Australia"	0	0	0	0	181	630	35	378	238	265	
+"India"	0	0	0	78	0	0	136	362	57	258	
+"Georgia"	0	0	0	0	0	0	0	0	0	245	
+"Poland"	0	0	0	0	98	72	750	387	109	227	
+"Taipei, Chinese"	0	0	920	0	0	417	152	249	41	217	
+"Bulgaria"	0	0	0	0	0	0	125	188	290	199	
+"Bahrain"	0	0	0	0	161	321	156	1527	0	109	
+"Norway"	1652	0	0	51	0	0	0	135	0	91	
+"Russian Federation"	0	0	0	2342	0	0	10	166255	2561	50	
+"Romania"	0	0	0	0	888	0	0	83	0	29	
+"Indonesia"	0	67	0	0	0	0	3	21	0	19	
+"Niger"	0	0	0	0	0	0	249	27	0	17	
+"Qatar"	0	0	55	0	0	0	0	0	0	9	
+"Türkiye"	253	1596	0	17247	146	1906	1375	26957	721	7	
+"Barbados"	0	0	0	0	0	0	107	0	0	5	
+"Kenya"	0	0	0	0	0	0	0	0	0	5	
+"Marshall Islands"	0	0	0	0	0	0	0	0	0	4	
+"Jordan"	0	0	0	0	1022	0	34	0	4	4	
+"Pakistan"	71	0	0	0	92	92	11	174	0	4	
+"Morocco"	0	0	0	0	62	1228	52	119	0	3	
+"Ghana"	0	0	0	0	0	0	0	0	0	2	
+"Lithuania"	0	0	0	0	0	0	0	3	0	1	
+"Slovenia"	0	0	0	324	0	0	21	0	0	1	
+"Falkland Islands (Malvinas)"	0	0	0	0	0	0	5	0	0		
+"Europe Othr. Nes"	13650	50500	59459	0	0	0	11223	0	41351		
+"Bahamas"	0	0	0	0	0	0	0	9	0		
+"Bangladesh"	0	0	0	0	66	0	0	0	0		
+"Cayman Islands"	0	0	0	0	0	0	15	14	0		
+"Cuba"	0	0	0	0	0	0	21	0	0		
+"El Salvador"	0	0	94	0	0	0	0	0	0		
+"Ethiopia"	0	0	0	0	0	0	0	0	77		
+"Estonia"	0	0	0	0	0	0	0	122	0		
+"Finland"	0	31	0	0	0	0	0	0	0		
+"Gabon"	0	0	0	0	0	0	30	0	0		
+"Greece"	0	0	0	0	0	418	11	4	0		
+"Guyana"	0	0	0	0	0	0	0	3	0		
+"Jamaica"	0	0	0	0	2733	0	0	0	0		
+"Latvia"	0	0	0	0	0	0	0	69	21		
+"Luxembourg"	0	0	0	0	93	0	96	13	0		
+"Macao, China"	0	0	0	0	0	0	0	221	0		
+"Namibia"	0	0	0	0	0	0	25	51	0		
+"New Zealand"	0	68	0	0	0	153	4	10	0		
+"Micronesia, Federated States of"	0	0	0	0	0	0	0	0	25		
+"Paraguay"	0	0	0	0	0	74	32	4	0		
+"Peru"	0	0	0	0	0	0	0	22	0		
+"Portugal"	0	109	0	0	0	0	0	0	0		
+"Saint Vincent and the Grenadines"	0	0	0	0	0	0	5	0	0		
+"Syrian Arab Republic"	0	0	0	31	0	0	0	0	0		
+"Trinidad and Tobago"	0	0	0	0	0	0	0	0	1817		
+"Tunisia"	0	0	0	0	0	0	3	0	0		
+"Egypt"	0	0	0	0	0	60	17	0	0		
+"Uruguay"	0	0	0	0	0	0	0	121	0		
