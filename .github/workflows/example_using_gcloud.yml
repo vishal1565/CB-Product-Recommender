@@ -26,5 +26,7 @@ jobs:
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v1'
 
-      - name: 'Create storage bucket'
-        run: 'gcloud storage buckets create "gs://${{ vars.PROJECT_ID }}_github_bucket" --location=EU --uniform-bucket-level-access --public-access-prevention'
+      - name: 'Docker test'
+        #run: 'gcloud storage buckets create "gs://${{ vars.PROJECT_ID }}_github_bucket" --location=EU --uniform-bucket-level-access --public-access-prevention'
+        run: |
+          docker -version
