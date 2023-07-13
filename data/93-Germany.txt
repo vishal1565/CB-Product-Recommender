@@ -1,164 +1,93 @@
-﻿Exporters	Select your indicators-Value imported in 2022 (USD thousand)	Select your indicators-Trade balance 2022 (USD thousand)	Select your indicators-Share in Germany's imports (%)	Select your indicators-Growth in imported value between 2018-2022 (%, p.a.)	Select your indicators-Growth in imported value between 2021-2022 (%, p.a.)	Select your indicators-Ranking of partner countries in world exports	Select your indicators-Share of partner countries in world exports (%)	Select your indicators-Total exports growth in value of partner countries between 2018-2022 (%, p.a.)	Select your indicators-Average distance between partner countries and all their importing markets (km)	Select your indicators-Concentration of all importing countries of partner countries	Select your indicators-Average tariff (estimated) applied by Germany (%)	
-"World"	354057	338857	100	9	26		100	9				
-"United States of America"	63552	174660	17.9	6	75	1	24.1	-6	9334	0.05	2.2	
-"Taipei, Chinese"	39668	-36629	11.2	27	35	19	1	27	9483	0.27	2.2	
-"Italy"	30741	-8827	8.7	7	18	2	10.3	16	4646	0.14	0	
-"Czech Republic"	24967	-10015	7.1	8	10	9	3.2	9	4223	0.11	0	
-"China"	24460	-23335	6.9	15	64	18	1.4	20	10052	0.34	2.2	
-"Hungary"	19688	-7527	5.6	-1	78	35	0.3	16	4148	0.3	0	
-"Switzerland"	17220	25798	4.9	-5	-21	11	2.6	13	3337	0.16	0	
-"Sweden"	15419	12801	4.4	14	45	21	0.8	13	4917	0.16	0	
-"Area Nes"	13412	-13412	3.8	-1	5							
-"Austria"	13038	35660	3.7	10	45	29	0.4	10	2390	0.08	0	
-"Bulgaria"	12720	-7777	3.6	24	6						0	
-"Türkiye"	10443	-9581	2.9	20	28	8	3.3	32	7471	0.34	0	
-"Finland"	7967	-486	2.3	11	6	22	0.7	13	5235	0.13	0	
-"Spain"	7946	4539	2.2	14	17	10	2.9	2	4876	0.07	0	
-"Brazil"	7900	-7395	2.2	5	19	14	2.1	4	9196	0.32	2.2	
-"United Kingdom"	7474	19682	2.1	34	-26	5	5.4	59	5198		0	
-"Norway"	5625	6562	1.6	26	-17	12	2.4	16	4542	0.15	0	
-"Serbia"	4368	-3560	1.2	9	25	32	0.4	21	7019	0.52	0	
-"Bosnia and Herzegovina"	3872	-3501	1.1	17	71	23	0.7	4	3689	0.12	0	
-"Canada"	2828	5522	0.8	-24	0	17	1.5	7	3316	0.45	0	
-"Mexico"	2322	-2056	0.7	61	150	28	0.5	761	1624	0.77	0	
-"Israel"	2193	-1794	0.6	0	28	3	9.5	32	4835	0.87	0	
-"Japan"	1972	-386	0.6	4	-11	16	2	20	10128	0.86	2.2	
-"Korea, Republic of"	1863	-460	0.5	19	96	4	6.4	20	7828	0.19	0	
-"France"	1735	46750	0.5	-15	75	24	0.6	-2	3373	0.1	0	
-"Poland"	1283	23104	0.4	14	-20	6	4.6	56	1138	0.83	0	
-"Slovenia"	1172	2164	0.3	101	15	37	0.2	14	1353	1	0	
-"Lithuania"	1152	2153	0.3	193	13	39	0.10	13	1294	0.15	0	
-"Hong Kong, China"	988	-533	0.3	2	-21	63	0	4	2327	0.38	2.2	
-"India"	941	8229	0.3	1	-18	26	0.6	17	10003	0.32	2.2	
-"Portugal"	897	1003	0.3	15	57	33	0.4	8	5075	0.48	0	
-"Belgium"	763	7669	0.2	17	-40	13	2.1	58	3107	0.12	0	
-"Netherlands"	623	24421	0.2	20	24	25	0.6	33	3072	0.25	0	
-"South Africa"	613	2212	0.2	-9	51	96	0		1092	0.31	0	
-"Denmark"	531	16618	0.1	-1	-59	38	0.2	-2	3827	0.2	0	
-"Pakistan"	405	-255	0.1	3	-12	43	0.04	11	8202	0.25	2.2	
-"Argentina"	264	-22	0.1		25						2.2	
-"Croatia"	146	2311	0	90	54	20	0.8	13	6694	0.56	0	
-"Philippines"	120	375	0	-1	186	31	0.4	83	12662	0.91	2.2	
-"Russian Federation"	100	1053	0	-49	-89	30	0.4	-3	7989	0.61	2.2	
-"Romania"	98	3440	0	-3	145						0	
-"Estonia"	85	2421	0		-72	36	0.2	60	1293	0.48	0	
-"Ireland"	80	2047	0		1233	78	0	-40	2667	0.32	0	
-"Singapore"	64	1156	0			51	0.02	46	7279	0.27	2.2	
-"Ukraine"	55	2029	0	25	104						0	
-"Malaysia"	43	331	0			52	0.02	15	10759	0.27	2.2	
-"Latvia"	41	4365	0	274	-87	42	0.05	39	1475	0.46	0	
-"Australia"	40	5874	0	-32	100	34	0.4	-1	11932	0.36	2.2	
-"Myanmar"	31	-31	0		63	111	0		7084	0.5	2.2	
-"Viet Nam"	30	62	0	-22	-71	62	0	43	6940	0.16	2.2	
-"New Zealand"	25	1433	0	89	32	56	0.02	-1	7721	0.3	2.2	
-"Indonesia"	21	897	0	-25	62	55	0.02	46	3071	0.19	2.2	
-"Namibia"	17	212	0		240	90	0	-5	4986	0.44	2.2	
-"Thailand"	14	301	0	11	367	27	0.6	-24	4759	0.89	2.2	
-"El Salvador"	10	34	0	-18	-50	77	0	-34	3779	0.72	0	
-"Slovakia"	5	7027	0			15	2	31	1589	0.43	0	
-"Luxembourg"	1	3721	0	-75		64	0	7	689	0.18	0	
-"Chile"	1	1713	0	-36		47	0.03	143	11238	0.69	0	
-"Iceland"	1	440	0	-10		85	0	27	2213	0.47	0	
-"Egypt"	1	255	0			57	0.01		7768	0.97	0	
-"Nepal"	1	3	0			44	0.04	533	7421	0.99	2.2	
-"Cambodia"	1	2	0	-35		83	0		13543	0.9	2.2	
-"Ghana"	1	2	0			118	0		5094	1	2.5	
-"United Arab Emirates"		3551				41	0.05	-8	7839	0.52	2.2	
-"Greece"		1733				40	0.09	4	2186	0.29	0	
-"Cyprus"		1260				48	0.03	-1	3495	0.15	0	
-"Kazakhstan"		1211				76	0	18	2885	0.53	2.2	
-"Saudi Arabia"		1037				74	0	-59	10020	0.63	2.2	
-"Oman"		601				59	0	279	7116	0.35	2.2	
-"Andorra"		441				75	0	11	1184	0.36	0	
-"Peru"		425				50	0.03	2	5750	0.95	0	
-"Kyrgyzstan"		375									2.2	
-"Rwanda"		353									2.2	
-"Colombia"		311				45	0.04	-33	3960	0.91	0	
-"Kuwait"		307				91	0	94	3574	0.94	2.2	
-"Bolivia, Plurinational State of"		293									2.2	
-"Venezuela, Bolivarian Republic of"		289									2.2	
-"Mongolia"		286									2.2	
-"Paraguay"		230									2.2	
-"Botswana"		230									2.2	
-"Macedonia, North"		223									0	
-"Morocco"		208				99	0	-76	1663	1	0	
-"Malta"		197				82	0	-23	4458	0.32	0	
-"Qatar"		153				61	0	36	4067	0.99	2.2	
-"Bangladesh"		140				88	0	295	15555	0.95	2.2	
-"Lebanon"		139				68	0	-34	10192	0.98	0	
-"Uruguay"		136				108	0	64	8890	1	2.2	
-"Uzbekistan"		134									2.2	
-"Ecuador"		86				71	0		3566	0.94	0	
-"New Caledonia"		83				119	0	124	16868	1	0	
-"Azerbaijan"		82									2.2	
-"Greenland"		76				95	0	59	3137	0.78	0	
-"Brunei Darussalam"		66				130	0		11511	1	2.2	
-"Mauritius"		60				128	0	-31	1748	1	2.2	
-"Armenia"		53				127	0		2924	1	2.2	
-"Georgia"		42				69	0	-19	772	0.47	0	
-"Bahrain"		36									2.2	
-"Maldives"		35									2.2	
-"Libya, State of"		35									2.2	
-"Jordan"		35									0	
-"Panama"		32				70	0	63	6735	0.4	0	
-"Dominican Republic"		31				92	0	85	6761	1	2.2	
-"Tunisia"		29				49	0.03	167	3533	0.99	0	
-"Zambia"		26				79	0	125	1298	0.26	2.2	
-"Kenya"		26				116	0	-56	1534	0.56	2.2	
-"Belarus"		26				117	0	-84	1593	1	2.2	
-"Guatemala"		23				66	0	-3	12308	0.99	0	
-"French Polynesia"		21				93	0	-41	15918	1	0	
-"Montenegro"		19				54	0.02	43	2871	0.18	0	
-"Senegal"		19									2.5	
-"Honduras"		17									0	
-"Sri Lanka"		16									2.2	
-"Moldova, Republic of"		15									0	
-"Nigeria"		15									2.5	
-"Barbados"		14				60	0	386	4164	1	2.8	
-"Cameroon"		14									0.6	
-"Cuba"		14									2.2	
-"Iran, Islamic Republic of"		13				80	0	-36	1676	1	2.2	
-"Suriname"		12				102	0		3399	0.58	2.8	
-"Afghanistan"		12				129	0	-60	13645	1	2.5	
-"Tajikistan"		11									2.2	
-"Macao, China"		8				100	0	-29		0.71	2.2	
-"Turkmenistan"		6				115	0	-16	3946	1	2.2	
-"Gibraltar"		6				121	0	-17	489	1	2.2	
-"Trinidad and Tobago"		5				104	0	96	567	1	2.8	
-"Eritrea"		4									2.2	
-"Somalia"		1									2.2	
-"Uganda"		1									2.2	
-"Djibouti"						46	0.04	84	2798	1	2.2	
-"Pitcairn"						53	0.02			1	0	
-"Algeria"						58	0	427	1064	1	0	
-"Central African Republic"						65	0		6079	1	0.6	
-"Sudan"						67	0	-35		1		
-"Burkina Faso"						72	0	-46	4492	1	2.5	
-"Equatorial Guinea"						73	0		2806	1	0.6	
-"Papua New Guinea"						81	0		4555	0.73	3.2	
-"Yemen"						84	0	78	12498	0.97	2.5	
-"Costa Rica"						86	0	227	12230	0.47	0	
-"Nauru"						87	0		10707	1	2.2	
-"Saint Kitts and Nevis"						89	0		3669	1	2.8	
-"Mozambique"						94	0		1018	0.79	2.2	
-"Mali"						97	0	67	4410	1	2.5	
-"Zimbabwe"						98	0	5	697	1	2.2	
-"Ship stores and bunkers"						101	0			1		
-"Turks and Caicos Islands"						103	0		3229	0.82	0	
-"Aruba"						105	0		1788	1	0	
-"Cayman Islands"						106	0		9276	1	0	
-"Tonga"						107	0		10021	1	3.2	
-"Korea, Democratic People's Republic of"						109	0		7671	1	2.2	
-"Guyana"						110	0	108	4874	1	2.8	
-"Guinea-Bissau"						112	0		4921	1	2.5	
-"Seychelles"						113	0	-20	6212	1	2.2	
-"Congo"						114	0		11912	1	0.6	
-"Faroe Islands"						120	0		1317	1	0	
-"Curaçao"						122	0			1		
-"Vanuatu"						123	0		12355	1	3.2	
-"Iraq"						124	0	-81	9770	1	2.2	
-"Tokelau"						125	0	-74	10221	1	2.2	
-"Albania"						126	0	-54	7765	1	0	
-"Sint Maarten (Dutch part)"						131	0			1		
-"Bonaire, Sint Eustatius and Saba"						132	0			1		
-"Sierra Leone"						133	0	-53	817	1	2.5	
+﻿Exporters	Imported value in 2013	Imported value in 2014	Imported value in 2015	Imported value in 2016	Imported value in 2017	Imported value in 2018	Imported value in 2019	Imported value in 2020	Imported value in 2021	Imported value in 2022	
+"World"	282509	234735	206985	259373	265616	262871	274425	276061	302302	385262	
+"United States of America"	27244	33018	36620	49918	44352	43770	42793	40772	36374	63739	
+"Taipei, Chinese"	19891	15061	12444	16256	11387	16007	17149	22311	29526	39736	
+"Italy"	34010	31532	26422	32647	29736	28587	29537	26249	31330	38814	
+"Czech Republic"	13013	16420	16344	23117	19353	20196	24823	22465	26662	29525	
+"China"	12763	12322	12765	11897	10153	13942	11484	12783	14981	24483	
+"Hungary"	13695	11334	11098	16707	24091	18035	21797	16812	11983	20640	
+"Switzerland"	35138	24811	17047	19508	19316	20415	25617	25592	21878	17219	
+"Sweden"	3110	3124	4338	7937	7371	9054	11887	12867	12119	17095	
+"Bulgaria"	8306	5952	6109	5139	4243	6117	8898	7073	13696	15835	
+"Austria"	8373	7858	7369	9759	11006	9058	10745	8550	10328	14465	
+"Area Nes"	0	0	0	0	18267	15125	10989	13774	12833	13456	
+"Spain"	10669	5272	3659	5224	6334	6626	4779	6724	8180	11658	
+"Türkiye"	5813	3629	4228	9070	7373	4769	6323	7687	8171	10469	
+"Finland"	3694	3336	3521	5818	6319	6918	6437	7892	9089	9807	
+"Brazil"	5997	5109	4175	7497	8371	6838	5241	6685	6623	7936	
+"United Kingdom"	5635	4921	3992	3157	3421	3168	5153	6163	10293	7441	
+"Norway"	253	289	1135	1868	2038	3206	2017	5480	6764	5625	
+"France"	16986	4223	1907	2548	2363	3459	2462	886	3286	5339	
+"Serbia"	2429	2757	3182	3157	4170	3018	3045	2849	3487	4368	
+"Bosnia and Herzegovina"	511	715	913	1438	3432	2190	1465	1523	2260	3872	
+"Canada"	10373	9897	7319	5018	5981	7150	6654	3997	2831	2820	
+"Mexico"	10	336	8	17	1	207	978	629	929	2320	
+"Israel"	1493	2333	1341	2331	2033	2012	2003	1793	1720	2191	
+"Japan"	3118	909	803	1421	1692	1877	1881	1817	2393	2137	
+"Korea, Republic of"	567	486	637	840	921	781	927	843	951	1860	
+"Slovenia"	1167	916	422	246	204	109	189	406	1171	1474	
+"Lithuania"	0	0	0	97	581	124	31	112	1189	1330	
+"Poland"	1343	495	1193	1353	1290	937	1130	1835	1640	1302	
+"Portugal"	1347	924	381	143	86	485	633	527	662	1014	
+"Hong Kong, China"	1328	919	712	746	638	999	1044	632	1247	987	
+"India"	1268	831	1025	1051	1290	1063	803	807	1150	940	
+"Netherlands"	1254	829	318	841	425	393	405	885	501	809	
+"Belgium"	6552	4284	4896	4852	3342	1063	801	636	1274	763	
+"Denmark"	201	821	515	453	706	827	795	999	1539	737	
+"Greece"	50	56	38	0	71	0	42	10	220	727	
+"South Africa"	251	155	267	657	339	536	1323	2060	405	613	
+"Pakistan"	248	167	235	214	431	415	336	214	459	405	
+"Argentina"	2	0	0	0	0	0	6	124	212	264	
+"Estonia"	12	1	0	100	65	12	0	248	302	162	
+"Croatia"	22	0	0	0	0	15	15	79	95	159	
+"Romania"	596	937	1023	596	250	122	85	48	51	110	
+"Russian Federation"	19293	14928	7732	4773	1531	2645	1038	1380	882	97	
+"Ireland"	90	70	146	220	0	0	0	0	6	79	
+"Latvia"	95	122	12	0	0	1	0	215	316	77	
+"Singapore"	29	38	24	35	3	0	0	0		63	
+"Philippines"	130	105	81	143	196	89	82	68	42	58	
+"Ukraine"	2932	2	7	0	0	21	19	64	27	54	
+"Australia"	136	168	95	151	65	134	86	93	20	40	
+"Myanmar"	0	0	0	0	0	0	0	2	19	31	
+"Viet Nam"	2	3	3	1	0	104	98	138	103	30	
+"New Zealand"	2	55	7	12	0	1	20	10	19	25	
+"Indonesia"	24	11	6	15	10	26	152	39	13	21	
+"Namibia"	0	0	4	0	0	0	2	6	5	17	
+"El Salvador"	11	31	22	36	42	25	23	10	20	10	
+"Slovakia"	3	94	14	81	2	0	5	0	0	4	
+"Thailand"	3	13	11	10	0	6	6	67	3	3	
+"Cambodia"	4	19	9	11	13	13	5	8	12	1	
+"Chile"	0	0	0	0	0	13	0	0	2	1	
+"Ghana"	0	0	0	0	0	0	1	0	1	1	
+"Iceland"	0	1	4	0	0	1	3	0	1	1	
+"Luxembourg"	469	1422	391	204	204	146	107	35		1	
+"Nepal"	5	0	1	0	0	0	0	0	1	1	
+"Egypt"	0	0	0	0	0	0	0	0		1	
+"Andorra"	0	0	0	0	0	0	0	2			
+"Armenia"	0	12	0	0	0	0	0	0			
+"Brunei Darussalam"	0	0	0	0	0	0	2	0			
+"Belarus"	0	441	0	0	44	0	0	3			
+"Cameroon"	0	0	0	0	0	3	0	0			
+"Sri Lanka"	0	0	0	0	0	0	0	7			
+"Colombia"	1	187	4	0	0	0	0	0			
+"Costa Rica"	0	0	0	0	3	8	0	0			
+"Cyprus"	0	20	0	0	0	0	0	0			
+"Ecuador"	0	0	0	1	0	0	0	0			
+"Georgia"	0	0	0	1	0	0	0	3			
+"Guatemala"	0	0	0	0	0	0	0	1	5		
+"Jamaica"	0	0	0	0	0	0	7	2			
+"Kazakhstan"	0	0	0	0	0	0	19	0			
+"Jordan"	251	0	0	0	0	0	0	0			
+"Malaysia"	3	0	0	0	0	0	16	0	1		
+"Moldova, Republic of"	0	0	8	0	0	0	0	0			
+"Montenegro"	93	0	2	2	0	9	0	0			
+"Oman"	0	0	0	0	0	0	0	0			
+"Nigeria"	0	0	0	1	0	0	0	0			
+"Panama"	0	0	0	2	0	0	0	0			
+"Peru"	0	0	1	0	0	0	0	1			
+"Saudi Arabia"	15	11	0	5	0	0	0	2			
+"Zimbabwe"	0	3	0	0	0	0	0	0			
+"United Arab Emirates"	188	0	0	31	61	1	0	67			
+"Tunisia"	0	0	0	0	0	0	11	0			
+"Macedonia, North"	0	0	0	0	0	0	0	0			
+"Yemen"	0	0	0	0	0	0	1	0			
