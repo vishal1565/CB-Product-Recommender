@@ -29,4 +29,4 @@ jobs:
       - name: 'Docker test'
         #run: 'gcloud storage buckets create "gs://${{ vars.PROJECT_ID }}_github_bucket" --location=EU --uniform-bucket-level-access --public-access-prevention'
         run: |
-          docker -version
+          docker version
