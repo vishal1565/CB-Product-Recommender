@@ -27,7 +27,7 @@ jobs:
         id: 'deploy'
         uses: 'google-github-actions/deploy-cloudrun@v1'
         with:
-          service: '${{ vars.PROJECT_ID }}-github-cloud-run-service'
+          service: 'github-cloud-run-service'
           image: 'gcr.io/cloudrun/hello'
           flags: '--service-account=${{ vars.WORKLOAD_SA_EMAIL }}' # Use your Workload SA to attach to compute resources
 
