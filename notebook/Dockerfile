@@ -38,6 +38,8 @@ RUN pipenv install --skip-lock --system --dev
 
 USER root
 RUN /bin/bash -c 'chmod +x ./scripts/*.sh'
+RUN /bin/bash -c 'chmod +x ./conf/*.py'
 RUN ls -al ./scripts/*.sh
+RUN ls -al ./scripts/*.py
 
 CMD ["./scripts/entrypoint.sh"]
