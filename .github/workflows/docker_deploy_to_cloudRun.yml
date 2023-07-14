@@ -37,10 +37,10 @@ jobs:
         run: gcloud config list
 
       - name: Docker login
-        run: gcloud auth configure-docker us-central1.docker.pkg.dev
+        run: gcloud auth configure-docker us-central1-docker.pkg.dev
 
       - name: Build docker image
-        run: docker build . -f Dockerfile -t us-central1.docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:1.0.0
+        run: docker build . -f Dockerfile -t us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:1.0.0
         
       - name: Push image to GCR
-        run: docker push us-central1.docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:1.0.0  #us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:1.0.0
+        run: docker push us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:1.0.0  #us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:1.0.0
