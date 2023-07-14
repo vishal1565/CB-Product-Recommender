@@ -25,3 +25,9 @@ jobs:
 
       - name: Build docker image
         run: docker build . -f Dockerfile -t gcr.io/hack-o-holics-ui:1.0.0
+
+      - name: Login to GCR
+        run: docker login -u oath2accesstoken -p "$(gcloud auth print-access-token)" https://gcr.io/hack-o-holics-ui
+        
+      - name: Push image to GCR
+        run: docker push gcr.io/hack-o-holics-ui:1.0.0
