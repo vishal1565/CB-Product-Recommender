@@ -2,6 +2,14 @@ name: Deploy Cloud Run using the deploy-cloudrun GitHub Action
 on:
   workflow_dispatch:
 
+env:
+  PROJECT_ID: "hack-team-hack-o-holics"
+  REGION: "us-central1"
+  RUN_SERVICE: "hello-hack-o-holics"
+  BASE_AR_URL: "us-central1-docker.pkg.dev"
+  AR_NAME: "hack-o-holic"
+  IMAGE_NAME: "hack-o-holics-ui"
+
 jobs:
   example:
     runs-on: ubuntu-latest
@@ -35,8 +43,12 @@ jobs:
           echo "tag=${GITHUB_SHA::6}" >> $GITHUB_OUTPUT
 
       - name: Build docker image
-        run: docker build . -f Dockerfile -t us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:${{ steps.tag.outputs.tag }}
+        run: docker build . -f Dockerfile -t ${{ env.BASE_AR_URL }}/${{ env.PROJECT_ID }}/${{ env.AR_NAME }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }}
         
-      - name: Push image to GCR
-        run: docker push us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:${{ steps.tag.outputs.tag }}  #us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:${{ steps.tag.outputs.tag }}
+      - name: Push image to Artifact Registery
+        run: docker push ${{ env.BASE_AR_URL }}/${{ env.PROJECT_ID }}/${{ env.AR_NAME }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }}  #us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:${{ steps.tag.outputs.tag }}
+        
+      - name: Deploy to CloudRun
+        run : gcloud run deploy ${{ env.RUN_SERVICE }} --image=${{ env.BASE_AR_URL }}/${{ env.PROJECT_ID }}/${{ env.AR_NAME }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }} --region=${{ env.REGION }} --project={{ env.PROJECT_ID }}
+
 
