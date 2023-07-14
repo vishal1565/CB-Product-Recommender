@@ -143,6 +143,7 @@ Every team member has the following roles granted at project level:
 * roles/documentai.editor
 * roles/errorreporting.admin
 * roles/eventarc.developer
+* roles/iam.roleViewer
 * roles/logging.admin
 * roles/monitoring.editor
 * roles/notebooks.admin
@@ -270,6 +271,43 @@ Examples:
 * [Workflows](https://cloud.google.com/workflows/docs/authentication#deploy_a_workflow_with_a_custom_service_account)
   *  [Terraform](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/workflows_workflow#service_account)
 * [Vertex AI](https://cloud.google.com/vertex-ai/docs/general/custom-service-account#attach)
+  * Vertex AI's Console UI does not always expose the field necessary to specify a user managed SA.  
+However, most such screens have a "View Code <>" button in the top right.
+The generated code is populated with the fields you entered in the UI.
+Using the curl option. you can add the missing attribute in a text editor 
+(typically `"serviceAccount": "workload@hack-team-hack-o-holics.iam.gserviceaccount.com"`, to be added as a peer of the `"name": "..."` or `"displayName" : "..."` attribute) 
+and execute the resulting command in Cloud Shell.
+
+Here's an example for tuning a language model:
+```shell
+PROJECT_ID="hack-team-hack-o-holics"
+
+curl \
+-X POST \
+-H "Authorization: Bearer $(gcloud auth print-access-token)" \
+-H "Content-Type: application/json; charset=utf-8" \
+https://europe-west4-aiplatform.googleapis.com/v1/projects/hack-team-hack-o-holics/locations/europe-west4/pipelineJobs?pipelineJobId=tune-large-model-$(date +"%Y%m%d%H%M%S") -d \
+$'{
+    "displayName": "tune-large-model",    
+    "serviceAccount": "workload@hack-team-move.iam.gserviceaccount.com", 
+    "runtimeConfig": {
+        "gcsOutputDirectory": "gs://artifacts.hack-team-hack-o-holics.appspot.com/Foo/",
+        "parameterValues": {
+            "location": "us-central1",
+            "project": "hack-team-hack-o-holics",
+            "large_model_reference": "text-bison@001",
+            "model_display_name": "mytunedmodel_1",
+            "train_steps": 100,
+            "encryption_spec_key_name": "",
+            "dataset_uri": "gs://artifacts.hack-team-hack-o-holics.appspot.com/Bar.jsonl",
+            "evaluation_data_uri": "",
+            "evaluation_output_root_dir": "",
+            "learning_rate": 3
+        }
+    },
+    "templateUri": "https://us-kfp.pkg.dev/ml-pipeline/large-language-model-pipelines/tune-large-model/v2.0.0"
+}'
+```
 
 ### Limitations & Restrictions
 * You have a budget of EUR ~700.
