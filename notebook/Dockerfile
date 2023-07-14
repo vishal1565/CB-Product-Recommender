@@ -17,6 +17,8 @@ RUN pip install scikit-learn
 ###
 RUN rm -rf /notebooks/*
 ADD *.ipynb /notebooks/
+ADD *.csv /notebooks/
+
 RUN ls -al /notebooks/
 RUN ls -al /
 ###
