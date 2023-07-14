@@ -26,6 +26,16 @@ jobs:
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v1'
 
+      - name: 'Authenticate to GCP as workload SA for invocation'
+        id: 'auth'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          token_format: 'id_token' # <--
+          workload_identity_provider: ${{ vars.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.WORKLOAD_SA_EMAIL }} # Use your Workload SA to interact with resources
+          id_token_audience: ${{ steps.deploy.outputs.url }}
+          id_token_include_email: true
+
       - name: Build docker image
         run: docker build . -f Dockerfile -t us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:1.0.0
 
