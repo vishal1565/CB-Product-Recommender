@@ -1,5 +1,5 @@
-#FROM tensorflow/tensorflow
-FROM gcr.io/tensorflow/tensorflow:latest
+FROM tensorflow/tensorflow
+#FROM gcr.io/tensorflow/tensorflow:latest
 ###
 ### install more system packages, e.g.
 ###
