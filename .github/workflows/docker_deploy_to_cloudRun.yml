@@ -24,11 +24,7 @@ jobs:
           service_account: ${{ vars.INFRA_SA_EMAIL }} # Use your Infrastructure SA to manage resources
 	  
       - name: 'Build docker image'
-	run: |-
+	run: |
 	  docker build . -f Dockerfile -t gcr.io/hack-o-holics-ui:1.0.0
 
-      - name: 'Push image to GCR'
-	run: |
-	  docker login -u oath2accesstoken -p "$(gcloud auth print-access-token)" https://gcr.io/hack-o-holics-ui
-	  docker push gcr.io/hack-o-holics-ui:1.0.0
 	  
