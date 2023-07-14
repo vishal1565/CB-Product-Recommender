@@ -20,14 +20,14 @@ resource "google_container_registry" "registry" {
 }
 
 resource "google_storage_bucket_iam_member" "objAdmin" {
-  project  = "${var.project_id}"
+  #project  = "${var.project_id}"
   bucket = "us.artifacts.hack-team-hack-o-holics.appspot.com"
   role        = "roles/storage.objectAdmin"
   member      = "serviceAccount:infrastructure@hack-team-hack-o-holics.iam.gserviceaccount.com"
 }
 
 resource "google_storage_bucket_iam_member" "legacyBucketReader" {
-  project  = "${var.project_id}"
+  #project  = "${var.project_id}"
   bucket = "us.artifacts.hack-team-hack-o-holics.appspot.com"
   role        = "roles/storage.legacyBucketReader"
   member      = "serviceAccount:infrastructure@hack-team-hack-o-holics.iam.gserviceaccount.com"
