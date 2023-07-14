@@ -35,7 +35,7 @@ jobs:
         uses: 'google-github-actions/setup-gcloud@v1'
 
       - name: Docker login
-        run: gcloud auth configure-docker us-central1-docker.pkg.dev
+        run: gcloud auth configure-docker ${{ env.BASE_AR_URL }}
 
       - name: Image tag
         id: tag
