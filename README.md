@@ -1,5 +1,6 @@
 # Welcome, hack-o-holics, to the 2023 TDI Global Hackathon
 ## Contents
+1. [Bye bye]()
 1. [About your hackathon environment](#about-your-hackathon-environment)
 2. [Access Issues](#access-issues)
 3. [GCP](#gcp)
@@ -19,6 +20,14 @@
     1. [Authenticating with GCP APIs from code](#authenticating-with-gcp-apis-from-code)
     2. [How do I deploy Cloud Run?](#how-do-i-deploy-cloud-run)
     3. [How do I deploy App Engine?](#how-do-i-deploy-app-engine)
+    4. [How do I deploy Cloud Functions?](#how-do-i-deploy-cloud-functions)
+
+## Bye bye!
+Your GCP and OCP environments will be torn down at 1700 BST on 14th July.
+Please export all artifacts (e.g. training data and Juypter notebooks) before this time.
+Your GitHub repository will remain available until 0900 BST on 17th July.
+
+For guidance on exporting Vertex AI model, please see https://cloud.google.com/vertex-ai/docs/export/export-edge-model.
 
 ## About your hackathon environment
 Your hackathon environment consists of four components:
@@ -550,8 +559,14 @@ When running on OCP, the value of the secret "gcp-access" in your team's namespa
 
 ### How do I deploy Cloud Run?
 You can find a [GitHub Actions example here](./.github/workflows/example_deploy_cloud_run_action.yml) 
-or a [Terraform Cloud example here](./terraform/example_cloud_run.tf).
+and a [Terraform example here](./terraform/example_cloud_run.tf).
 
 ### How do I deploy App Engine?
-You can find a [GitHub Actions example here](./.github/workflows/example_deploy_app_engine_action.yml)
-or a [Terraform Cloud example here](./terraform/example_app_engine.tf).
+You can find a [GitHub Actions example here](./.github/workflows/example_deploy_app_engine_action.yml),
+a [gcloud example here](./.github/workflows/example_deploy_app_engine_gcloud.yml) 
+and a [Terraform example here](./terraform/example_app_engine.tf).
+
+### How do I deploy Cloud Functions?
+You can find a [GitHub Actions example here](./.github/workflows/example_deploy_cloud_function_action.yml), 
+a [gcloud example here](./.github/workflows/example_deploy_cloud_function_gcloud.yml) 
+and a [Terraform example here](./terraform/example_cloud_functions.tf).
