@@ -31,20 +31,22 @@ jobs:
       - name: 'Deploy Gen2 Cloud Function'
         id: deploy
         env:
+          FUNCTION_NAME: 'python-http-function'
+          REGION: 'europe-west3'
           WORKLOAD_SA_EMAIL: ${{ vars.WORKLOAD_SA_EMAIL }} # Why not use this direct in the script? See https://docs.github.com/en/enterprise-cloud@latest/actions/security-guides/security-hardening-for-github-actions#using-an-intermediate-environment-variable
         run: |
           set -e
           
-          gcloud functions deploy python-http-function \
+          gcloud functions deploy "${FUNCTION_NAME}" \
           --entry-point="hello_get" \
           --gen2 \
-          --region="europe-west3" \
+          --region="${REGION}" \
           --runtime="python311" \
           --service-account="${WORKLOAD_SA_EMAIL}" \
           --source="functions/helloworld" \
           --trigger-http
           
-          url=$(gcloud functions describe python-http-function --gen2 --region="europe-west3" --format="value(serviceConfig.uri)")
+          url=$(gcloud functions describe "${FUNCTION_NAME}" --gen2 --region="${REGION}" --format="value(serviceConfig.uri)")
           echo "url=${url}" >> "${GITHUB_OUTPUT}"
 
       # Only needed to get an ID token to simulate an authenticated curl call.
