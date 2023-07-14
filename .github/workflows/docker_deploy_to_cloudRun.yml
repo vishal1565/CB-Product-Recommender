@@ -23,11 +23,17 @@ jobs:
           workload_identity_provider: ${{ vars.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ vars.INFRA_SA_EMAIL }} # Use your Infrastructure SA to manage resources
 
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v1'
+
       - name: Build docker image
         run: docker build . -f Dockerfile -t us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:1.0.0
 
       #- name: Login to GCR
       #  run: docker login -u oath2accesstoken -p "$(gcloud auth print-access-token)" https://gcr.io/hack-o-holics-ui
+
+      - name: Gcloud config
+        run: gcloud config list
         
       - name: Push image to GCR
         run: docker push us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:1.0.0
