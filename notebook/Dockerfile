@@ -36,4 +36,8 @@ RUN ls -al /
 RUN pip install pip pipenv --upgrade
 RUN pipenv install --skip-lock --system --dev
 
+USER root
+RUN /bin/bash -c 'chmod +x ./scripts/*.sh'
+RUN ls -al ./scripts/*.sh
+
 CMD ["./scripts/entrypoint.sh"]
