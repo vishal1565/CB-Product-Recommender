@@ -7,7 +7,7 @@
 #  delete_service_on_destroy = true
 #  project                   = var.project_id
 #  runtime                   = "python39"
-#  service                   = "my-tfc-app"
+#  service                   = "tfc-app"
 #  service_account           = var.workload_sa_email
 #
 #  deployment {
