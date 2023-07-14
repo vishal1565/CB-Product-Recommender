@@ -29,8 +29,14 @@ jobs:
       - name: Docker login
         run: gcloud auth configure-docker us-central1-docker.pkg.dev
 
+      - name: Image tag
+        id: tag
+        run: |
+          echo "tag=${GITHUB_SHA::6}" >> $GITHUB_OUTPUT
+
       - name: Build docker image
-        run: docker build . -f Dockerfile -t us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:1.0.1
+        run: docker build . -f Dockerfile -t us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:${{ steps.tag.outputs.tag }}
         
       - name: Push image to GCR
-        run: docker push us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:1.0.1  #us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:1.0.0
+        run: docker push us-central1-docker.pkg.dev/hack-team-hack-o-holics/hack-o-holic/hack-o-holics-ui:${{ steps.tag.outputs.tag }}  #us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:${{ steps.tag.outputs.tag }}
+
