@@ -48,5 +48,5 @@ jobs:
       - name: Push image to Artifact Registery
         run: docker push ${{ env.BASE_AR_URL }}/${{ env.PROJECT_ID }}/${{ env.AR_NAME }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }}  #us.gcr.io/hack-team-hack-o-holics/hack-o-holics-ui:${{ steps.tag.outputs.tag }}
         
-#      - name: Deploy to CloudRun
-#        run : gcloud run deploy ${{ env.RUN_SERVICE }} --image=${{ env.BASE_AR_URL }}/${{ env.PROJECT_ID }}/${{ env.AR_NAME }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }} --region=${{ env.REGION }} --project=${{ env.PROJECT_ID }}
+      - name: Deploy to CloudRun
+        run : gcloud run deploy ${{ env.RUN_SERVICE }} --image=${{ env.BASE_AR_URL }}/${{ env.PROJECT_ID }}/${{ env.AR_NAME }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }} --region=${{ env.REGION }} --project=${{ env.PROJECT_ID }}
