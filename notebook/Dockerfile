@@ -1,4 +1,7 @@
 FROM tensorflow/tensorflow
+FROM python:3.8.2-slim
+
+
 #FROM gcr.io/tensorflow/tensorflow:latest
 ###
 ### install more system packages, e.g.
@@ -19,10 +22,18 @@ RUN rm -rf /notebooks/*
 ADD *.ipynb /notebooks/
 ADD *.csv /notebooks/
 
-RUN ls -al /notebooks/
-RUN ls -al /
 ###
 ### start up the server
 ###
 WORKDIR /notebooks
-CMD ["/run_jupyter.sh"]
+###CMD ["/run_jupyter.sh"]
+
+COPY . ./
+
+RUN ls -al /notebooks/
+RUN ls -al /
+
+RUN pip install pip pipenv --upgrade
+RUN pipenv install --skip-lock --system --dev
+
+CMD ["./scripts/entrypoint.sh"]
