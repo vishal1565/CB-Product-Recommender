@@ -33,7 +33,7 @@ jobs:
           token_format: 'id_token' # <--
           workload_identity_provider: ${{ vars.WORKLOAD_IDENTITY_PROVIDER }}
           service_account: ${{ vars.WORKLOAD_SA_EMAIL }} # Use your Workload SA to interact with resources
-          id_token_audience: ${{ steps.deploy.outputs.url }}
+          #id_token_audience: ${{ steps.deploy.outputs.url }}
           id_token_include_email: true
 
       - name: Build docker image
